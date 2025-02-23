@@ -2,11 +2,14 @@
 
 # Formal Verification for OL Network Contracts
 
-This repository contains formal verification specifications for the **`ol_account` module** from the OL Network. These specs are written in the **Move language** and demonstrate how formal verification ensures the correctness and safety of smart contracts.
+This repository contains formal verification specifications for the **`ol_account`, **`vouch`, **`burn`   module** from the OL Network. These specs are written in the **Move language** and demonstrate how formal verification ensures the correctness and safety of smart contracts.
 
 ## What’s Included
 
-- **[Specs](specs/ol_account_spec.move):** Detailed specifications for the `ol_account` module.
+- ### Specs
+- `ol_account.spec` - [View Spec](https://github.com/0LNetworkCommunity/libra-framework/blob/main/framework/libra-framework/sources/ol_sources/ol_account.spec.move)
+- `vouch.spec` - [View Spec](https://github.com/0LNetworkCommunity/libra-framework/blob/main/framework/libra-framework/sources/ol_sources/vouch.spec.move)
+- `burn.spec` - [View Spec](https://github.com/0LNetworkCommunity/libra-framework/blob/main/framework/libra-framework/sources/ol_sources/burn.spec.move)
 - **OL Network Contracts:**  
   [View the full codebase on GitHub](https://github.com/0LNetworkCommunity/libra-framework/tree/main/framework/libra-framework/sources)
 
