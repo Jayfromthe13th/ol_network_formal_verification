@@ -2,7 +2,10 @@
 
 # Formal Verification for OL Network Contracts
 
-This repository contains formal verification specifications for the **`ol_account`, **`vouch`, **`burn`   module** from the OL Network. These specs are written in the **Move language** and demonstrate how formal verification ensures the correctness and safety of smart contracts.
+This repository contains formal verification specifications for the `ol_account`, `vouch`, `burn`   module** from the OL Network. These specs are written in the **Move language** and demonstrate how formal verification ensures the correctness and safety of smart contracts.
+
+## About OL
+OL Network is a community-driven Layer 1 blockchain leveraging the Move programming language to prioritize security, scalability, and decentralized governance. Built with Move’s resource-oriented model, it ensures robust smart contract safety and formal verification capabilities. The network features modular on-chain tools like validator reputation systems (vouch.spec), programmable token economics (burn.spec), and flexible account primitives (ol_account.spec), enabling transparent DAO governance and customizable tokenomics. 
 
 ## What’s Included
 
